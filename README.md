@@ -4,6 +4,11 @@
 
 This repository contains a very basic web application based on Typescript and React. Main application file is `App.tsx`. Node and npm are required.
 
+## Result
+
+![image](https://github.com/user-attachments/assets/cdd7198a-d1dd-4d7d-95e3-de38cb567cf2)
+
+
 ## Environment Setup
 
 Ensure you have Node.js (v14.x or later) and npm (v6.x or later) installed.  
