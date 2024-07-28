@@ -1,0 +1,32 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: rgb(0, 29, 35);
+	color: white;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.logo {
+	height: 30px;
+	filter: invert(1);
+	margin-right: 30px;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #7f7d83;
+}
+
+.portfolio {
+	color: white;
+	margin-left: auto;
+	text-decoration: none;
+}
+
+.title:hover {
+	color: white;
+}
