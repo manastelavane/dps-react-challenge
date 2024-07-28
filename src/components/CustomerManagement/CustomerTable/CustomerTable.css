@@ -1,0 +1,35 @@
+.table {
+	width: 94%;
+	margin: 20px auto;
+	border-collapse: separate;
+	border-radius: 18px;
+	border: 1px solid #eff0f2;
+	overflow: hidden;
+	border-spacing: 0px;
+	border-spacing: 0 1em;
+}
+
+thead {
+	color: rgb(89, 94, 106);
+	background-color: #fafbfc;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: 475;
+	border-bottom: 1px solid #eff0f2;
+	text-align: center;
+	height: 40px;
+}
+
+td,
+tr {
+	padding: 10px;
+	text-align: center;
+	margin: auto 10px;
+}
+
+noData,
+td {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 475;
+}

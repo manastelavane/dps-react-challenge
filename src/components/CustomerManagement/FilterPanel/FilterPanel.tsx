@@ -24,8 +24,8 @@ const FilterPanel = ({
 				<label htmlFor="searchInput" className="fieldTitle">
 					Name
 				</label>
-				<div>
-					<div>
+				<div className="search">
+					<div className="searchLogo">
 						<img
 							src={searchLogo}
 							alt="search"
@@ -50,16 +50,25 @@ const FilterPanel = ({
 					id="city"
 					onChange={(e) => setCurrentCity(e.target.value)}
 				>
-					<option value="">Select city</option>
+					<option className="selectOptions" value="">
+						Select city
+					</option>
 					{cityList.map((city) => (
-						<option key={city} value={city}>
+						<option
+							className="selectOptions"
+							key={city}
+							value={city}
+						>
 							{city}
 						</option>
 					))}
 				</select>
 			</div>
 			<div className="highlightOldestContainer">
-				<label htmlFor="highlightOldest">
+				<label
+					htmlFor="highlightOldest"
+					className="fieldTitle highlightTitle"
+				>
 					Highlight oldest per city
 				</label>
 				<input
